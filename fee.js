@@ -31,5 +31,5 @@ function estimateTransactionFee() {
     console.log("Send Money Securely!");
 }
 
-//runs the function
+//executes the function
 estimateTransactionFee();
