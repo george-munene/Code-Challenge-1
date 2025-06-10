@@ -1,4 +1,5 @@
 function calculateChaiIngredients() {  //creates the function
+    const prompt=require("prompt-sync")({sigint:true}); //provides critical package
     const numberOfCups = parseInt(prompt("Karibu! How many cups of Chai Bora would you like to make?"), 10); //prompts user for input, saves it, and defaults to 10
 
     if (isNaN(numberOfCups) || numberOfCups <= 0) { //checks if a valid number is input

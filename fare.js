@@ -1,4 +1,5 @@
 function calculateBodaFare() { //creates the function to calculate fare
+    const prompt=require("prompt-sync")({sigint:true}); //provides critical package
     const distanceInKm = parseFloat(prompt("Unafika wapi Mkubwa? Kilometer ngapi?:")); //accepts user input
 
     //checks if number is entered

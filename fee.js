@@ -1,5 +1,6 @@
 // defines function to estimate Transaction Fee
 function estimateTransactionFee() {
+    const prompt=require("prompt-sync")({sigint:true}); //provides critical package
     //accepts input and converts input into a number
     const amountToSend = parseFloat(prompt("Unatuma Ngapi? (KES):"));
 
