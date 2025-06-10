@@ -14,11 +14,17 @@ To run the code in this repository, follow these steps:
 2. **Run the JavaScript Files**:
    Ensure Node.js is installed, then execute the following commands in your terminal:
    ```bash
+   npm install prompt-sync
+    ```
+
+   ```bash
    node chai.js
    ```
+
    ```bash
    node fare.js
    ```
+
    ```bash
    node fee.js
    ```
